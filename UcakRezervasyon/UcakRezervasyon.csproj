@@ -64,6 +64,12 @@
     <Compile Include="KullaniciBilgisi.Designer.cs">
       <DependentUpon>KullaniciBilgisi.cs</DependentUpon>
     </Compile>
+    <Compile Include="OdemeEkrani.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OdemeEkrani.Designer.cs">
+      <DependentUpon>OdemeEkrani.cs</DependentUpon>
+    </Compile>
     <Compile Include="SeferIptali.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -107,6 +113,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="KullaniciBilgisi.resx">
       <DependentUpon>KullaniciBilgisi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OdemeEkrani.resx">
+      <DependentUpon>OdemeEkrani.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="SeferIptali.resx">
       <DependentUpon>SeferIptali.cs</DependentUpon>

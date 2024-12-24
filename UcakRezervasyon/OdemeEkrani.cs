@@ -10,16 +10,16 @@ using System.Windows.Forms;
 
 namespace UcakRezervasyon
 {
-    public partial class KullaniciBilgisi : Form
+    public partial class OdemeEkrani : Form
     {
-        public KullaniciBilgisi()
+        public OdemeEkrani()
         {
             InitializeComponent();
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
-            OdemeEkrani frmShow = new OdemeEkrani();
+            BiletEkrani frmShow = new BiletEkrani();
             frmShow.ShowDialog();
         }
     }

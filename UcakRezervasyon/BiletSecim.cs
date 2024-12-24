@@ -16,5 +16,11 @@ namespace UcakRezervasyon
         {
             InitializeComponent();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            KullaniciBilgisi frmShow = new KullaniciBilgisi();
+            frmShow.ShowDialog();
+        }
     }
 }

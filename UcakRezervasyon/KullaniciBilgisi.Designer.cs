@@ -35,6 +35,7 @@
             this.label4 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
+            this.button1 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -100,11 +101,22 @@
             this.label6.TabIndex = 6;
             this.label6.Text = "T.C. NUMARASI:";
             // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(603, 422);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(154, 57);
+            this.button1.TabIndex = 7;
+            this.button1.Text = "Ödemeye Geç";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
             // KullaniciBilgisi
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(769, 450);
+            this.ClientSize = new System.Drawing.Size(780, 491);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.label4);
@@ -129,5 +141,6 @@
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.Button button1;
     }
 }
