@@ -31,8 +31,7 @@ namespace UcakRezervasyon
 
         private void button3_Click(object sender, EventArgs e)
         {
-            SeferIptali frmShow = new SeferIptali();
-            frmShow.ShowDialog();
+            
         }
     }
 }
