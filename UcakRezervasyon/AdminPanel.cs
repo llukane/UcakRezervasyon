@@ -33,5 +33,17 @@ namespace UcakRezervasyon
         {
             
         }
+
+        private void button3_Click_1(object sender, EventArgs e)
+        {
+            var dialogResult = MessageBox.Show("Sistemden çıkmak istediğinize emin misiniz?", "Çıkış Onayı", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+
+            if (dialogResult == DialogResult.Yes)
+            {
+                Giris frmShow = new Giris();
+                frmShow.ShowDialog();
+                this.Hide();
+            }
+        }
     }
 }

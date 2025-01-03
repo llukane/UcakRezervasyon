@@ -19,8 +19,13 @@ namespace UcakRezervasyon
 
         private void button1_Click(object sender, EventArgs e)
         {
-            OdemeEkrani frmShow = new OdemeEkrani();
+            BiletEkrani frmShow = new BiletEkrani();
             frmShow.ShowDialog();
+        }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

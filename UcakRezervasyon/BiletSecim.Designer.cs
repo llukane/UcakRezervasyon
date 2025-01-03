@@ -38,6 +38,8 @@
             this.button1 = new System.Windows.Forms.Button();
             this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
             this.label3 = new System.Windows.Forms.Label();
+            this.button2 = new System.Windows.Forms.Button();
+            this.label4 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // comboBox1
@@ -199,12 +201,7 @@
             "1",
             "2",
             "3",
-            "4",
-            "5",
-            "6",
-            "7",
-            "8",
-            "9"});
+            "4"});
             this.comboBox4.Location = new System.Drawing.Point(291, 192);
             this.comboBox4.Name = "comboBox4";
             this.comboBox4.Size = new System.Drawing.Size(172, 24);
@@ -212,7 +209,7 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(197, 284);
+            this.button1.Location = new System.Drawing.Point(163, 271);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(125, 58);
             this.button1.TabIndex = 45;
@@ -235,11 +232,32 @@
             this.label3.Size = new System.Drawing.Size(0, 16);
             this.label3.TabIndex = 47;
             // 
+            // button2
+            // 
+            this.button2.Location = new System.Drawing.Point(585, 100);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(75, 23);
+            this.button2.TabIndex = 48;
+            this.button2.Text = "Hesapla";
+            this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Location = new System.Drawing.Point(681, 103);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(44, 16);
+            this.label4.TabIndex = 49;
+            this.label4.Text = "label4";
+            // 
             // BiletSecim
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(530, 378);
+            this.ClientSize = new System.Drawing.Size(788, 384);
+            this.Controls.Add(this.label4);
+            this.Controls.Add(this.button2);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.dateTimePicker1);
             this.Controls.Add(this.button1);
@@ -269,5 +287,7 @@
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.DateTimePicker dateTimePicker1;
         private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Label label4;
     }
 }

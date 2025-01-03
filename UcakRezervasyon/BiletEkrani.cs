@@ -12,9 +12,21 @@ namespace UcakRezervasyon
 {
     public partial class BiletEkrani : Form
     {
+
         public BiletEkrani()
         {
             InitializeComponent();
+            
+            string kod = "TR";
+            Random random = new Random();
+            int sayi = random.Next(1000, 10000);
+            string ucuskodu = kod + sayi.ToString();
+            label3.Text = ucuskodu;
+        }
+
+        private void label3_Click(object sender, EventArgs e)
+        {
+            
         }
     }
 }

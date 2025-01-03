@@ -128,6 +128,7 @@
             this.button4.TabIndex = 85;
             this.button4.Text = "Seferi İptal Et";
             this.button4.UseVisualStyleBackColor = true;
+            this.button4.Click += new System.EventHandler(this.button4_Click);
             // 
             // button3
             // 
@@ -137,6 +138,7 @@
             this.button3.TabIndex = 84;
             this.button3.Text = "Seferi İptal Et";
             this.button3.UseVisualStyleBackColor = true;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
             // button2
             // 
@@ -146,6 +148,7 @@
             this.button2.TabIndex = 83;
             this.button2.Text = "Seferi İptal Et";
             this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // button1
             // 
@@ -155,6 +158,7 @@
             this.button1.TabIndex = 82;
             this.button1.Text = "Seferi İptal Et";
             this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // label25
             // 

@@ -37,7 +37,7 @@
             // 
             // pictureBox1
             // 
-            this.pictureBox1.Location = new System.Drawing.Point(181, 12);
+            this.pictureBox1.Location = new System.Drawing.Point(171, 12);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(193, 107);
             this.pictureBox1.TabIndex = 0;
@@ -65,11 +65,12 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(291, 190);
+            this.label3.Location = new System.Drawing.Point(269, 190);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(44, 16);
             this.label3.TabIndex = 3;
             this.label3.Text = "label3";
+            this.label3.Click += new System.EventHandler(this.label3_Click);
             // 
             // BiletEkrani
             // 
