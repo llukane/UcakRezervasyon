@@ -19,7 +19,7 @@ namespace UcakRezervasyon
 
         private void button1_Click(object sender, EventArgs e)
         {
-            Ucuslar frmShow = new Ucuslar();
+            SeferIptali frmShow = new SeferIptali();
             frmShow.ShowDialog();
         }
 
@@ -44,6 +44,11 @@ namespace UcakRezervasyon
                 frmShow.ShowDialog();
                 this.Hide();
             }
+        }
+
+        private void AdminPanel_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

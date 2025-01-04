@@ -28,5 +28,22 @@ namespace UcakRezervasyon
         {
             
         }
+
+        private void BiletEkrani_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            var dialogResult = MessageBox.Show("Sistemden çıkmak istediğinize emin misiniz?", "Çıkış Onayı", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+
+            if (dialogResult == DialogResult.Yes)
+            {
+                Giris frmShow = new Giris();
+                frmShow.ShowDialog();
+                this.Hide();
+            }
+        }
     }
 }

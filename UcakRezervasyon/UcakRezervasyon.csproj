@@ -64,23 +64,11 @@
     <Compile Include="KullaniciBilgisi.Designer.cs">
       <DependentUpon>KullaniciBilgisi.cs</DependentUpon>
     </Compile>
-    <Compile Include="OdemeEkrani.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="OdemeEkrani.Designer.cs">
-      <DependentUpon>OdemeEkrani.cs</DependentUpon>
-    </Compile>
     <Compile Include="SeferIptali.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="SeferIptali.Designer.cs">
       <DependentUpon>SeferIptali.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Ucuslar.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Ucuslar.Designer.cs">
-      <DependentUpon>Ucuslar.cs</DependentUpon>
     </Compile>
     <Compile Include="Giris.cs">
       <SubType>Form</SubType>
@@ -114,14 +102,8 @@
     <EmbeddedResource Include="KullaniciBilgisi.resx">
       <DependentUpon>KullaniciBilgisi.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="OdemeEkrani.resx">
-      <DependentUpon>OdemeEkrani.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="SeferIptali.resx">
       <DependentUpon>SeferIptali.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Ucuslar.resx">
-      <DependentUpon>Ucuslar.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Giris.resx">
       <DependentUpon>Giris.cs</DependentUpon>
